@@ -7,7 +7,12 @@ function init(){
 		alert("Tsithembile Tembo:" + textbox.value)
 	}
 
-  button.addEventListener('click', showMeText)
+  //function ShowMetext deals: 
+  // 1. gets entry button 
+  // 2. makes the textoutput have the  textbox.value
+  // 3. alaert box has my name and the textbox.value  
+
+  button.addEventListener('click', showMeText) // button clicked -> showMeText Function 
 
 }
-window.addEventListener('load', init);  
+window.addEventListener('load', init);  // function loads 
